@@ -108,10 +108,12 @@
         .logo {
             width: 50px;
             height: 50px;
+            mix-blend-mode: multiply;
         }
       .table-container .github-logo-small {
         width: 32px;
         height: 32px;
+        mix-blend-mode: multiply;
       }
 
       .table-container .colab-logo-large {
@@ -133,9 +135,9 @@
 
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="https://www.polito.it/personale?p=samuele.sandrini" target="_blank">Samuele Sandrini</a><sup>*</sup><sup>1</sup>,</span>
+                <a href="https://www.polito.it/personale?p=samuele.sandrini" target="_blank">Samuele Sandrini</a><sup>1</sup>,</span>
               <span class="author-block">
-                <a href="https://www.deib.polimi.it/eng/people/details/2048606" target="_blank">Marco Faroni</a><sup>*</sup><sup>2</sup>,</span>
+                <a href="https://www.deib.polimi.it/eng/people/details/2048606" target="_blank">Marco Faroni</a><sup>2</sup>,</span>
               <span class="author-block">
                 <a href="https://www.stiima.cnr.it/ricercatori/nicola-pedrocchi/" target="_blank">Nicola Pedrocchi</a><sup>1</sup>
               </span>
@@ -173,7 +175,7 @@
 
         <!-- Video link -->
         <span class="link-block">
-          <a href="https://www.youtube.com/watch?v=saoXy-FpILY" target="_blank"
+          <a href="https://youtu.be/VMjZGyuvc7k?autoplay=1" target="_blank"
           class="external-link button is-normal is-rounded is-dark">
             <span class="icon">
               <i class="fab fa-youtube"></i>
@@ -291,7 +293,7 @@
     <div class="container">
       <!-- Paper video. -->
       <h2 class="title is-3">Simulations</h2>
-      <p>
+      <p style="padding-bottom: 15px;">
         A mosaic composition problem (simulating pick-place operations in an industrial setting) was tested in simulation. In this scenario, each agent is tasked with creating its own mosaic using 4 proprietary objects from its workspace and 2 objects from a collaborative workspace, to evaluate the coupling effects between agents. The problem involves a total of 24 tasks with precedence constraints governing the pick & place operations. The problem under consideration requires all the constraints in the proposed model. Two different safety scenarios are tested: "velocity scaling" (modulated robot speed based on h-r distance) and "safety areas" (safety zones around the robot that determine slowing down and stopping) both conforming the ISO/TS 15066. 
       </p>
         <div class="columns is-centered has-text-centered"> 
@@ -341,8 +343,8 @@
   <div class="hero-body">
     <div class="container">
       <h2 class="title is-3">Task plans comparison</h2>
-      <p>
-        The graphs below illustrate the plans obtained using different task planners. The plans for the 'safety areas' scenario are given as an example. Notably, the proposed methods (Synergistic TP and Relaxed S. TP) demonstrate solutions where the interactions between humans and robots are beneficial. These methods avoid causing slowdowns and risky situations for the operator.
+      <p style="padding-bottom: 15px;">
+        The figure below illustrates the plans obtained using different task planners (these results are inherent to the 'safety areas' scenario are given as an example). Notably, the proposed methods (Synergistic TP and Relaxed S. TP) demonstrate solutions where the interactions between humans and robots are beneficial. These methods avoid causing slowdowns and risky situations for the operator.
       </p>
       <img src="static/images/task_plans.png" alt="Task Plans Comparison"/>
 
@@ -357,6 +359,8 @@
   <div class="hero-body">
     <div class="container">
       <h2 class="title">Simulations results</h2>
+      <p style="padding-bottom: 15px;">
+        The graphs below show the results obtained for both scenarios (safety areas and velocity scaling). The first comparison is relative to the execution durations (plots are interactive), while the second comparison is relative to the likelihood of the human-robot distance.      </p>
       <div class="columns is-multiline">
         <!-- First Image Block -->
         <div class="column is-half">
@@ -411,7 +415,7 @@
         <div class="column is-four-fifths">
 
           <div class="publication-video">
-            <iframe width="1258" height="594" src="https://www.youtube.com/embed/Btap6afoUF4?autoplay=1" title="Human-Robot Experiments: Synergistic Human-Aware Task Planner Outperforms" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="1258" height="594" src="https://youtu.be/VMjZGyuvc7k?autoplay=1" title="Human-Robot Experiments: Synergistic Human-Aware Task Planner Outperforms" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
         </div>
       </div>
