@@ -4,7 +4,7 @@ Samuele Sandrini, Marco Faroni, Nicola Pedrocchi
 
 Submitted to Robotics and Computer-Integrated Manufacturing Journal.
 
-Visit the [page]().
+Visit the [page](https://jrl-cari-cnr-unibs.github.io/synergistic_hrtp/).
 
 ## Acknowledgments
 Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
